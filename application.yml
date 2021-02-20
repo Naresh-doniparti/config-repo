@@ -2,4 +2,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:9000/eureka/
-message: hello
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
