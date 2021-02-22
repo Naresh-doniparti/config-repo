@@ -1,4 +1,9 @@
 hystrix:
   dashboard:
     proxy-stream-allow-list: '*'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  
 message: hello from employee service default
