@@ -1,6 +1,7 @@
 eureka:
   client:
     service-url:
+      register-with-eureka: true
       defaultZone: http://gateway.naresh.com/eureka/
 management:
   security:
