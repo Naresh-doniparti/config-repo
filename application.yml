@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://gateway.naresh.com/eureka/
 management:
   security:
     enabled: false
