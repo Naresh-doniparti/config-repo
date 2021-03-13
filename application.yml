@@ -1,7 +1,7 @@
 eureka:
   client:
     register-with-eureka: true
-    serviceUrl:
+    service-url:
       defaultZone: http://localhost:8888/eureka
 management:
   security:
