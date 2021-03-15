@@ -3,4 +3,4 @@ management:
     web:
       exposure:
         include: '*'  
-message: hello from config service default
+message: hello from config client default
