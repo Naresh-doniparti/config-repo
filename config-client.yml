@@ -1,1 +1,6 @@
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  
+message: hello from config service default
